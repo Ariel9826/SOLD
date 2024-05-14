@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="Registro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section>
+        <a href="/index.HTML">    <img src="/IMAGES/Crear-cuenta.png" alt="Logo" class="Logo-Izquierda">     </a>
+    </section>
+
+    <form action="/registro" method="post">
+
+        <h2>Crear cuenta</h2>
+    
+        <label for="nombres"> </label>
+        <input type="text" id="nombres" name="nombres" placeholder="Nombre(s)" required>
+    
+        <label for="apellidos"> </label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+    
+        <label for="email"> </label>
+        <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+    
+        <label for="telefono"> </label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Número telefónico" required>
+    
+        <label for="password"> </label>
+        <input type="password" id="password" name="password" placeholder="Contraseña" required>
+    
+        <label for="confirmPassword"> </label>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirma tu contraseña" required>
+    
+        <button type="submit">Registrarse</button>
+    
+        <p>¿Ya tienes una cuenta? <a href="/Inicio-sesión/Inicio-sesión.html">Inicia Sesión</a></p>
+    </form>
+    
+
+</body>
+</html>
+
